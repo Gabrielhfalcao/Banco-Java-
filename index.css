@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Inconsolata:wght@200;300;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+}
+
+section{
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    scroll-snap-align: start;
+}
+
+.se01{
+    text-align: center;
+    background-image: url(/imagens/capa-menu/taca_1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    scroll-snap-align: start;
+}
+
+.se01 h1{
+    padding-top: 0px;
+    font-family: Anton;
+    font-size: max(50px,5vw);
+    color: aliceblue;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.se01 h2{
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: max(17px,2vw);
+    color: aliceblue;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#form p{
+    color: azure;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#form input{
+    border-radius: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding-right: 20px;
+}
+
+#redesociais{
+    margin-top: 80px;
+}
+
+
+.se02{
+    background-color: rgb(151, 151, 151);
+}
+
+.titulo-sec2{
+    position: relative;
+    top: 0;
+}
+
+.quadro-de-jogadores{
+    margin-top: 70px;
+    padding-top: 50px;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+    height: 70vh;
+    overflow: auto; 
+    border: 1px solid rgb(255, 255, 255);
+    border-start-start-radius: 100px;
+    border-end-start-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-top-right-radius: 0px;
+    background-image: linear-gradient(180deg, rgb(63, 63, 63), rgb(180, 180, 180));
+}
+
+#jog-1{
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(255, 255, 255);
+    border-start-start-radius: 100px;
+    border-end-start-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-top-right-radius: 0px;
+    height: 150px;
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.3);
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.4);
+}
+
+#jog-1:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 10px 10px 30px rgba(255, 255, 255, 0.3);
+}
+
+.nome-jog{
+    font-family: Anton;
+    color: white;
+    text-align: center;
+}
+
+.quant-gols{
+    text-align: center;
+    font-family: Anton;
+    color: white;
+}
+
+#roger{
+    border-radius: 100px;
+    background-image: linear-gradient(180deg, rgb(63, 63, 63), rgb(180, 180, 180));
+    border: 1px solid white;
+    width: 120px;
+}
+
+.se03{
+    background-color: green;
+}
+
+.title-03{
+    color: white;
+    font-size: 35px;
+    font-family: Anton;
+}
+
+.parag-03{
+    color: white;
+    font-size: 20px;
+    font-family: Anton;
+    text-align: left;
+    padding-left: 100px;
+}
+
+.se04{
+    background-color: purple;
+}
+
+.se05{
+    background-color: rgb(49, 136, 46);
+}
+
+.se06{
+    background-color: rgb(0, 0, 0);
+}
+
+.se07{
+    background-color: rgb(197, 184, 62);
+}
+
