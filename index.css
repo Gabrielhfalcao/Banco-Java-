@@ -143,6 +143,26 @@ section{
     background-color: rgb(86, 70, 175);
 }
 
+.se03 h1{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+
+.prox-jog{
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 50vh;
+    overflow: auto;
+}
+
+#quadrinhos{
+    background-color: rgba(255, 255, 255, 0.3);
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+    
+}
+
 .title-03{
     color: white;
     font-size: 35px;
@@ -212,4 +232,31 @@ h3{
 
 .se06{
     background-color: rgb(0, 0, 0);
+    height: 90vh;
+}
+
+.se06 input{
+    border-radius: 100px;
+}
+
+.se06 h2{
+    color: white;
+    font-family: Anton;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.se06 p{
+    color: white;
+    font-family: Anton;
+    font-size: 20px;
+}
+
+.se07{
+    background-color: white;
+    height: 10vh;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
 }
